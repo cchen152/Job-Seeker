@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jupite:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jupite</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jupite-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jupite:war exploded" />
+    </root>
+  </artifact>
+</component>
